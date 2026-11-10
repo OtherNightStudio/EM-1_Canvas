@@ -4,7 +4,7 @@
 
 EM-1 Canvas is a sample editor and MIDI librarian for the Korg Electribe EM-1. Open the [index.html](./index.html) in desktop Chrome or Edge to play the factory sounds, build a sample bank, or work with a connected EM-1. On GitHub, use **Download raw file** to get the HTML.
 
-![EM-1 Canvas showing the factory drum pool, the BD-Dark waveform, and the part controls](./assets/em1-canvas.png)
+The Browser app was tested and confirmed working using Google Chrome, A Motu M2 Audio interface for midi, and an original Korg Electribe EM-1 running firmware version 1.02. 
 
 ## Using the matrix
 
@@ -77,5 +77,11 @@ Canvas includes Korg factory sample data. Operating-system firmware comes from y
 Canvas builds on tracelistener’s EM-1 transport and mute-mod work. The HTML includes the upstream MIT notice for those contributions. [tracelistener’s EM-1 Mute Mod](https://github.com/tracelistener/tracelistener-em1-mute-mod)
 
 This build includes Korg factory PCM and derived wave data. The Code ROM comes from the owner’s device or backup. Saved Canvas banks can also contain imported wave ROMs, see SAMPLE_DATA_NOTICE.md for more information.
+
+## Development and testing
+
+I developed EM-1 Canvas with OpenAI’s Codex. I designed the sample-editing workflow and panel interactions, chose how the editor should work with the hardware, and tested it on my Korg Electribe EM-1. Codex helped me analyze firmware captures, interpret the PCM format, write and revise the application, build automated tests, and draft the documentation.
+
+I verified a complete custom sample-bank upload on my EM-1 and checked an imported JD-990 sine wave across octaves with a tuner. The firmware and PCM guide identifies which other findings came from captured bytes, browser tests, or firmware simulation.
 
 [Original Korg EM-1 owner’s manual and MIDI implementation](https://www.korg.com/us/support/download/product/1/97/)
