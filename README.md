@@ -1,4 +1,4 @@
-![EM-1 Canvas showing the sample pool and waveform editor](./ScreenShot/EM1-canvas_GoogleChromeScreenshot.png)
+![EM-1 Canvas showing the sample pool and waveform editor](./Screenshot/EM1-canvas_GoogleChromeScreenshot.png)
 
 # EM-1 Canvas beta v1.0.0
 
