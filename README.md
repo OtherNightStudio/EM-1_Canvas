@@ -66,12 +66,6 @@ Play notes across the keyboard to hear the different zones. **MIN / MAX** set th
 
 For the binary layout and worked examples of a drum slot and a synth key map, see [Inside the Electribe EM-1 firmware and PCM bank](./EM1_Firmware_and_PCM.md).
 
-## License and sample data
-
-The [MIT license](./LICENSE) covers the original Canvas software and documentation. The [sample data notice](./SAMPLE_DATA_NOTICE.md) explains the factory audio, optional Roland imports, and what a saved bank can contain.
-
-Canvas includes Korg factory sample data. Operating-system firmware comes from your own device or backup. The HTML includes the upstream MIT notice for tracelistener’s transport and mute-mod contributions. [Mute Mod project](https://github.com/tracelistener/tracelistener-em1-mute-mod) · [Korg EM-1 manuals](https://www.korg.com/us/support/download/product/1/97/)
-
 ## Credits and sound data
 
 Canvas builds on tracelistener’s EM-1 transport and mute-mod work. The HTML includes the upstream MIT notice for those contributions. [tracelistener’s EM-1 Mute Mod](https://github.com/tracelistener/tracelistener-em1-mute-mod)
